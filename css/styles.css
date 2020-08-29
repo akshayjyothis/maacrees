@@ -1,0 +1,98 @@
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light.otf);
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Light\ Italic.otf);
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold\ Italic.otf);
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Thin.otf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Bold.otf);
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ SemiBold.otf);
+    font-style: normal;
+    font-weight: 650;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Medium.otf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Axiforma';
+    src: url(../fonts/Axiforma\ Regular.otf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: black;
+    background-image: url("../images/mmmmmmm.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    font-family: Axiforma;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.section{
+    margin: 40px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+}
+
+.dotted-line{
+    border-bottom: 4px dashed rgb(220,220,220, 0.2);
+    margin-top: 40px;
+}
+
+div img{
+    width: 100px;
+    margin-left: 20px;
+
+}
